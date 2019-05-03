@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <link href="/chatStyle.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+    <div id="krohnChat">
+      <h2>Krohn Chat</h2>
+      <div id="chat_window">
+        <div id="chat_space"></div>
+        <div id="typer_space"></div>
+      </div>
+      <input id="username" type="text" placeholder="Username"/>
+      <input id="messageBox" type="text" placeholder="Message"/>
+      <button id="sendButton">Send Message</button>
+    </div>
+
+    <script src='clientJS.js'></script>
+
+  </body>
+
+</html>
